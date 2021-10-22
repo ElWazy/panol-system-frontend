@@ -1,5 +1,5 @@
 window.addEventListener('DOMContentLoaded', (event) => {
-    const MIN_TOOLS = 30;
+    const MIN_TOOLS = 14;
     const MAX_TOOLS = 1000;
 
     fetch("/js/persistence/tool_names.json")
@@ -20,7 +20,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
             grid.insertAdjacentHTML(
                 'afterbegin',
                 `<div class="card flex-column">
-                    <div class="card-body ">
+                    <div class="card-body ${color}">
                         <img src="${json[i].url_image}"
                                 loading="lazy" 
                                 alt="imagen herramienta"/>

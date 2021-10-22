@@ -50,6 +50,7 @@ h2 {
 
 form {
     background-color: #1b2a41;
+    box-shadow: 10px 10px #00798C;
     color: #fff;
     padding: 1.5em;
     display: grid;
