@@ -20,13 +20,13 @@ window.addEventListener('DOMContentLoaded', (event) => {
             grid.insertAdjacentHTML(
                 'afterbegin',
                 `<div class="card flex-column">
-                    <p class="card-name ${color}">${json[i].name}</p>
-                    <div class="card-body ${color}">
+                    <div class="card-body ">
                         <img src="${json[i].url_image}"
                                 loading="lazy" 
                                 alt="imagen herramienta"/>
-                                <p class="card-category">${json[i].category}</p>
-                                <p>stock total: ${json[i].stock_total}</p>
+                        <p class="card-name ">${json[i].name}</p>
+                        <p class="card-category">${json[i].category}</p>
+                        <p>stock total: ${json[i].stock_total}</p>
                         <p>stock real: ${json[i].stock_actual}</p>
                     </div>
                 </div>`
