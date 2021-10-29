@@ -16,7 +16,7 @@ body {
 a {
     text-decoration: none;
     text-align: center;
-    background-color: #00798c;
+    background-color: #0099ff;
     color: #fff;
     display: inline;
     width: 4em;
@@ -50,12 +50,11 @@ h2 {
 
 form {
     background-color: #1b2a41;
-    box-shadow: 10px 10px #00798C;
     color: #fff;
     padding: 1.5em;
     display: grid;
     gap: 1em;
-    border-radius: 25px;
+    
 }
 
 input {
@@ -64,5 +63,15 @@ input {
     padding: 0.5em;
     font-size: 0.9rem;
     border: 0;
-    border-bottom: 5px solid #00798C;
+    border-bottom: 5px solid #0099ff;
+}
+.curved svg {
+    display: block;
+    position: absolute;
+    bottom: 0;
+}
+
+.curvedtop  {
+    background: ebf7ff;
+    
 }
