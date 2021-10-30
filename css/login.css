@@ -8,8 +8,9 @@
 
 /* Pure Tags Definitions */
 body {
-    background-image: url(blob-scene-haikei.svg);
+    background-image: url(blob-scene-haikei.svg) ;
     background-size: cover;
+    background-attachment: fixed;
     font-family: 'Sarabun', sans-serif;
     font-size: 16px;
 }
