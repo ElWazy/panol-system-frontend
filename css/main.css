@@ -9,7 +9,7 @@
 
 /* Pure Tags Definitions */
 body {
-    background-color: #ebf7ff;
+    background-color: white;
     font-family: 'Sarabun', sans-serif;
     font-size: 16px;
 }
@@ -80,6 +80,7 @@ input {
 
 input[type="search"] {
     width: 50%;
+    background-color: #ebf7ff;
 }
 
 input[type="submit"] {
@@ -102,7 +103,7 @@ input[type="submit"] {
     color: #1b2a41;
     padding: 1em; 
     border: 1px solid #1b2a41;
-    border-radius: 25px;
+  
 }
 
 .card-category {

@@ -1,0 +1,49 @@
+
+.grid {
+    display: grid; 
+}
+
+
+.modal{
+    opacity: 0;
+    width: 200%;
+
+}
+
+.show{
+    pointer-events: auto;
+    opacity: 1;
+}
+
+ article {
+    justify-content: center;
+    margin: 2em;
+}
+
+h2 {
+    background-color: #0C1821;
+    color: #ebf7ff;
+    padding: 1em;
+    border-radius: 25px 25px 0 0;
+}
+
+.form-modal {
+    
+    background-color: #fff;
+    padding: 1em;
+    display: grid;
+    gap: 1em; 
+    border-radius: 0 0 25px 25px;
+    
+}
+
+.form-input {
+    padding: 0.5em;
+    font-size: 1.1em;
+    border: 1px solid #ebf7ff
+}
+
+input[type="submit"] {
+    background-color: #f3de8a;
+
+}

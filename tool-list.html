@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema Pañol</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/modal-create-tool.css">
+
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><h1>Sistema Pañol</h1></li>
+        </ul>
+    </nav>
+
+    <main >
+        <section>
+            <article class="search"  >
+                <form action="#" method="get">
+                    <input type="search" 
+                            name="search" 
+                            id="search" 
+                            placeholder="Buscar Herramienta" />
+                    <input type="submit" value="Buscar">
+                    <input type="submit" value="Crear Herramienta" id="open">
+                </form>
+            </article>
+            </section>
+        </main>
+        
+        <article class="grid">
+            <section>
+                <div class="modal" id="modalcontainer">
+                    <h2>Crear Herramienta</h1>
+                        <form action="#" method="post" class="form-modal">
+                            <input class="form-input" type="text" name="name" id="name" placeholder="Nombre Herramienta" required />
+                            <input type="text" name="category" id="category" placeholder="Nombre Categoría" required />
+                            <input type="file" name="image" id="image" />
+                            <input type="number" name="stock_total" id="stock_total" placeholder="Stock Total" min="0" required/>
+                            <input type="submit" value="Crear">
+                            <input type="submit" value="Cerrar" id="close">
+                        </form>
+                </div>
+                </section>
+        </article>
+
+        <script src="js/popup.js"></script>
+
+    <footer>
+        <ul class="flex">
+            <li>Sistema Pañol, Derechos Reservados</li>
+            <li>
+                <a href="login.html">Administrar</a>
+            </li>
+        </ul>
+    </footer>
+
+ 
+</body>
+</html>
