@@ -26,14 +26,15 @@
                             placeholder="Buscar Herramienta" />
                     <input type="submit" value="Buscar">
                     <input type="submit" value="Crear Herramienta" id="open">
+                    <input type="submit" value="Editar Herramienta" id="open">
                 </form>
             </article>
             </section>
         </main>
         
-        <article class="grid">
-            <section>
-                <div class="modal" id="modalcontainer">
+        
+        <div class="popup-create">
+                <div class="modal-create" id="modalcontainer">
                     <h2>Crear Herramienta</h1>
                         <form action="#" method="post" class="form-modal">
                             <input class="form-input" type="text" name="name" id="name" placeholder="Nombre Herramienta" required />
@@ -44,10 +45,18 @@
                             <input type="submit" value="Cerrar" id="close">
                         </form>
                 </div>
-                </section>
+        </div>
+
+        
+        <!-- article de json -->
+        <article class="grid">
         </article>
 
+
+        <!-- JS -->
         <script src="js/popup.js"></script>
+        <script src="js/main.js"></script>
+        
 
     <footer>
         <ul class="flex">

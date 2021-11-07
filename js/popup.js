@@ -10,3 +10,4 @@ open.addEventListener('click', ()=> {
 close.addEventListener('click', ()=> {
     modalcontainer.classList.remove('show');
 })
+
