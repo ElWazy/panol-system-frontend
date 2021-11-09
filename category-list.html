@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/modal-create-tool.css">
     <link rel="stylesheet" href="css/tables.css">
     <title>Empleados</title>
 </head>
@@ -25,17 +26,32 @@
                             id="search" 
                             placeholder="Buscar Categoria" />
                     <input type="submit" value="Buscar">
-                    <a id="a-button" href="">Crear Categoria</a> <!--boton que abre el pop ad para crear usuarios-->
+                    <input type="submit" value="Crear Categoría" id="open"> 
                 </form>
             </article>
 
         </section>
 
     </main>
+
+    <div class="popup-create">
+        <div class="modal-create" id="modalcontainer">
+            <h2>Crear Categoría</h1>
+                <form action="#" method="post" class="form-modal">
+                    <input type="text" name="name" id="name" placeholder="Nombre de la Categoría" required />
+                    <input type="submit" value="Crear">
+                    <input type="submit" value="Cerrar" id="close">
+
+            </form>
+        </div>
+    </div>
     
     <div class="main-container">
         <iframe src="category-table.html" frameborder="0"></iframe> <!--iframe donde se carga la tabla desde otra pagina para facilitar la visualizacion-->
     </div>
+
+    <script src="js/popup.js"></script>
+
 
 
 
