@@ -14,6 +14,7 @@ body {
     height: 0;
     padding-bottom: 56.25%;
     position: relative;
+    
 
 }
 
@@ -48,15 +49,7 @@ th, td{
     padding: 20px;
 }
 
-@media (max-width:  1000px){
 
-    iframe{
-        width: 100%;
-        
-
-    }
-    
-}
 
 
 
