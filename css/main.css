@@ -1,18 +1,15 @@
 /* Init */
 @import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@300&display=swap');
 
+
 * {
     margin: 0;
     padding: 0;
     border: 0;
-}
-
-/* Pure Tags Definitions */
-body {
-    background-color: white;
     font-family: 'Sarabun', sans-serif;
     font-size: 16px;
 }
+
 
 a {
     color: #f3de8a;
@@ -103,7 +100,6 @@ input[type="search"] {
 
 input[type="submit"] {
     background-color: #f3de8a;
-
 }
 
 #a-button{
@@ -149,3 +145,4 @@ footer ul {
     list-style: none;
     justify-content: space-between;
 }
+

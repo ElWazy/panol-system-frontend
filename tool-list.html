@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sistema Pañol</title>
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/background.css">
     <link rel="stylesheet" href="css/modal-create-tool.css">
 
 </head>
@@ -19,7 +20,7 @@
     <main >
         <section>
             <article class="search"  >
-                <form action="#" method="get">
+                <form action="" method="get">
                     <input type="search" 
                             name="search" 
                             id="search" 
@@ -36,13 +37,13 @@
             <div class="popup-create">
                     <div class="modal-create" id="modalcontainer">
                         <h2>Crear Herramienta</h1>
-                            <form action="#" method="post" class="form-modal">
+                            <form action="" method="post" class="form-modal">
                                 <input class="form-input" type="text" name="name" id="name" placeholder="Nombre Herramienta"  />
                                 <input type="text" name="category" id="category" placeholder="Nombre Categoría"  />
                                 <input type="file" name="image" id="image" />
                                 <input type="number" name="stock_total" id="stock_total" placeholder="Stock Total" min="0" />
                                 <input type="submit" value="Crear">
-                                <input type="submit" value="Cerrar" onclick="ocultar()">
+                                <input type="button" value="Cerrar" onclick="ocultar()">
                         </form>
                     </div>
             </div>
@@ -58,8 +59,10 @@
                             <input type="file" name="image" id="image" />
                             <input type="number" name="stock_total" id="stock_total" placeholder="Stock Total" min="0" />
                             <input type="submit" value="Actualizar">
-                            <input type="submit" value="Cerrar" onclick="ocultar2()">
+                            <input type="button" value="Cerrar" onclick="ocultar2()">
                         </form>
+
+
                 </div>
             </div>
         </div> 
