@@ -26,26 +26,31 @@
                             id="search" 
                             placeholder="Buscar Trabajador" />
                     <input type="submit" value="Buscar">
-                    <input type="submit" value="Ingresar Trabajador" id="open">
+                    <input type="submit" value="Ingresar Trabajador" onclick="mostrar()">
                 </form>
             </article>
 
         </section>
 
     </main>
-      
-    <div class="popup-create">
-        <div class="modal-create" id="modalcontainer">
-            <h2>Crear Herramienta</h1>
-                <form action="#" method="post" class="form-modal">
-                    <input class="form-input" type="text" name="name" id="name" placeholder="Rut Trabajador" required />
-                    <input type="text" name="category" id="category" placeholder="Nombre" required />
-                    <input type="number" name="stock_total" id="stock_total" placeholder="Rol" min="0" required/>
-                    <input type="number" name="stock_total" id="stock_total" placeholder="Estado" min="0" required/>
-                    <input type="submit" value="Crear">
-                    <input type="submit" value="Cerrar" id="close">
-            </form>
-        </div>
+    
+    
+    <div class="pup" id="pup-1">
+
+        <div class="popup-create">
+                <div class="modal-create" id="modalcontainer">
+                    <h2>Crear Herramienta</h1>
+                        <form action="#" method="post" class="form-modal">
+                            <input class="form-input" type="text" name="name" id="name" placeholder="Rut Trabajador"  />
+                            <input type="text" name="category" id="category" placeholder="Nombre"  />
+                            <input type="number" name="stock_total" id="stock_total" placeholder="Rol" min="0" />
+                            <input type="number" name="stock_total" id="stock_total" placeholder="Estado" min="0" />
+                            <input type="submit" value="Crear">
+                            <input type="submit" value="Cerrar" onclick="ocultar()">
+                    </form>
+                </div>
+            </div>
+
     </div>
     
     <script src="js/popup.js"></script>
