@@ -4,7 +4,7 @@ function mostrar(){
 }
 
 function ocultar(){
-    document.getElementById('pup-1').style.display="block";
+    document.getElementById('pup-1').style.display="none";
 }
 
 function mostrar2(){
@@ -12,5 +12,5 @@ function mostrar2(){
 }
 
 function ocultar2(){
-    document.getElementById('pup-2').style.display="block";
+    document.getElementById('pup-2').style.display="none";
 }
